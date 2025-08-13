@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-verao-claro: #FFD700;
+  --color-verao-medio: #FFC107;
+  --color-verao-escuro: #E67E22;
+  --color-ceu-azul: #87CEEB;
+  --color-agua-marinha: #7FFFD4;
+  --color-areia: #F5DEB3;
+  
+  --font-principal: "Poppins", sans-serif;
+  --font-secundaria: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply font-principal bg-areia text-gray-800;
+  }
+}
